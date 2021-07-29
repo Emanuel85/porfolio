@@ -1,0 +1,253 @@
+#proyectos, #contacto, #index, #sobreMi{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color:rebeccapurple;
+    font-size: 36px !important;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+
+input, textarea{
+    border-radius: 15px !important;
+}
+
+#contacto{
+    background-image: url(../images/CONTACTO.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#proyectos{
+    background-image: url(../images/PROYECTO.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#index{
+    background-image: url(../images/INDEX.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#sobreMi{
+    background-image: url(../images/SOBRE\ MI.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+#proyectos img{
+    height: 210px;
+}
+
+#navbarCollapse li{
+    margin: 2px 2px;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    padding: 4px 18px !important;
+    font-size: 16px !important;
+}
+
+.fa-github{
+    font-size: 32px;
+    color: white; 
+}
+
+.fa-linkedin-in{
+    color: rebeccapurple;
+    background-color:white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+/* INCIO DE ESTILO MENU MOBILE*/
+
+.fa-bars{
+    border: rebeccapurple solid 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa-whatsapp{
+    color: white;
+}
+
+.navbar-toggler{
+    color: rebeccapurple;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus{
+    background-color: white;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+/*FIN DE ESTILO MENU MOBILE*/
+
+.idioma{
+    margin-right: -230px !important;
+    background-color: rgb(87, 86, 86);
+    border-radius: 16px;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    background-color: rebeccapurple;
+    padding: 8px 15px;
+    border-radius: 15px 15px 0 0;
+    font-size: 36px;
+}
+
+.enviar{
+    background-color: white;
+    color: rebeccapurple;
+}
+
+.colorGradiente{
+    background: rgb(122,91,152);
+    background: linear-gradient(90deg, rgba(122,91,152,0.95) 0%, rgba(102,51,153,1) 50%, rgba(122,91,152,0.95) 100%);
+    
+}
+
+.colorGradiente h2{
+    font-size: 14px;
+}
+.VerOnline a,
+.btnProyectos a,
+.sobreMi a{
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: rebeccapurple;
+    font-weight: 500;
+    color: white;
+    border-radius: 15px;
+}
+
+.CodigoFuente a{
+    text-decoration: none;
+    color: white;
+}
+
+.gradiente{
+    background: rgb(102,51,153);
+background: linear-gradient(90deg, #663399 36%, #7a5b98 100%);
+}
+
+.gradiente h2{
+    margin: 0px;
+    padding: 16px 0 16px 12px;
+    font-size: 18px;
+    color: white;
+}
+
+.caja p{
+    font-size: 14px;
+    height: 90px;
+}
+
+.porfolio img, .sobreMi img{
+    height: 400px;
+}
+
+.porfolio p{
+    font-size: 17px;
+}
+
+.sobreMi p{
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+}
+
+.whatsapp:hover{
+    padding: 8px 15px 35px 15px;
+    color: white;
+}
+
+.enviar:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.activate, 
+.activate:focus{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.nav-item:hover{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.es:hover{
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.en:hover{
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 0 15px 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.VerOnline a:hover,
+.btnProyectos a:hover,
+.sobreMi a:hover
+{
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color:white;
+    font-weight: 700;
+    color: rebeccapurple;
+    border-radius: 15px;
+}
+
+.CodigoFuente a:hover{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.porfolio img:hover{
+    height: 410px;
+}
+
+
+@media (max-width: 750px) {
+    #proyectos{
+        background-image: url(../images/PROYECTOMobile.jpg);
+    }
+}
