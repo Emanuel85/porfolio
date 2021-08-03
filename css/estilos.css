@@ -21,6 +21,10 @@ input, textarea{
     border-radius: 15px !important;
 }
 
+/*section Ajuste para que ocupe el total de la pantalla el section{
+    width: 105vw;
+}*/
+
 #contacto{
     background-image: url(../images/CONTACTO.jpg);
     background-size: auto;
@@ -44,7 +48,6 @@ input, textarea{
     background-size: auto;
     background-repeat: no-repeat;
 }
-
 
 #proyectos img{
     height: 210px;
@@ -128,7 +131,6 @@ input, textarea{
 .colorGradiente{
     background: rgb(122,91,152);
     background: linear-gradient(90deg, rgba(122,91,152,0.95) 0%, rgba(102,51,153,1) 50%, rgba(122,91,152,0.95) 100%);
-    
 }
 
 .colorGradiente h2{
@@ -152,7 +154,7 @@ input, textarea{
 
 .gradiente{
     background: rgb(102,51,153);
-background: linear-gradient(90deg, #663399 36%, #7a5b98 100%);
+    background: linear-gradient(90deg, #663399 36%, #7a5b98 100%);
 }
 
 .gradiente h2{
@@ -179,6 +181,57 @@ background: linear-gradient(90deg, #663399 36%, #7a5b98 100%);
     font-weight: 300;
     font-size: 17px;
     color: white;
+}
+
+.bg-rosa, .bg-rosa h3 /*.bg-rosa h3 hace referencia a los nombres de los programas en el apartado de tecnologia del porfolio*/{
+    border-radius: 7px;
+    background-color: #4b3067;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+} 
+
+.icon i{
+    font-size: 100px;
+    color: #9841cd !important;
+}
+
+.tecnologia h2, .experiencia h2, .formacion h2{
+    color: white;
+    font-weight: 400;
+    font-size: 24px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-experiencia{
+    background-color: #a390ae;
+    border-radius: 7px;
+}
+
+.experiencia h3, .formacion h3{
+    color: #2b2b2b;
+    font-size: 17px;
+}
+
+.experiencia h4, .formacion h4{
+    color: rebeccapurple;
+    font-size: 17px;
+}
+
+.experiencia h5, .formacion h5{
+    color: #2b2b2b;
+    font-size: 14px;
+}
+
+.experiencia p{
+    color: #4b3067;
+    font-size: 16px !important;
+    font-weight: 400;
+}
+
+.experiencia img{
+    border-radius: 5px;
 }
 
 .whatsapp:hover{
@@ -250,4 +303,6 @@ background: linear-gradient(90deg, #663399 36%, #7a5b98 100%);
     #proyectos{
         background-image: url(../images/PROYECTOMobile.jpg);
     }
+
+    #sobreMi
 }
